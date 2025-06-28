@@ -1,0 +1,7 @@
+FROM webdevops/php-nginx:8.4
+
+WORKDIR /app
+
+COPY ./web /app
+
+EXPOSE 80
