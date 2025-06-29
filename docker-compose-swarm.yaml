@@ -29,6 +29,3 @@ secrets:
     external: true
 networks:
   app-network:
-    driver: bridge
-    name: app-network
-    attachable: true
